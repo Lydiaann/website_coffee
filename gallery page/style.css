@@ -1,0 +1,219 @@
+:root {
+    /* lm - 01042023 */
+
+    --color2: #f1c1b9;
+
+    --color3: #2C1516;
+
+    --color4: #973F45;
+ 
+    --color5: #BC5A61;
+
+    --color6: #d68a7f;
+
+    --color7: #82A359; 
+
+    --color8: #F1F6EC;
+    
+}
+
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+    /* LATTE ART */
+
+body {
+    min-height: 100%;
+    margin-bottom: 100px;
+    background-image: linear-gradient(var(--color4), var(--color6), var(--color8));
+}
+  /* HEADER*/
+
+header {
+    height: 350px;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--color3);
+}
+
+li {
+    display: inline;
+    float: right;
+    font-size: 20px;
+    
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: var(--color5);
+  }
+
+    /* DYNAMIC COFFEE CO */
+
+ h1 {
+    font-size: 130px;
+    text-align: auto;
+    font-family: cursive 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 10px;
+    color: var(--color6);
+    margin:10px 10px 50px 10px;
+    margin-left: 15px;
+    margin-right: auto;
+    text-shadow: 3px 3px black;
+ }
+
+p {
+    text-align: center;
+    font-family: fantasy, papyrus;
+    font-size: 30px;
+    padding: 2px;
+    width: auto;
+    margin: 2px, 2px, 2px, 2px;
+}
+
+
+h2 { /* LOVE FREE COFFEE? */
+    font-family: Helvetica, sans-serif;
+    font-size: 60px;
+    color: var(--color3);
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px black;
+ }
+
+
+/* REWARDS MEMBER */
+
+ h3 { 
+    text-align: center;
+    color: var(--color6);
+    font-size: 30px;
+    text-shadow: .5px .5px black;
+}
+
+h4 {
+    text-align: center;
+    color: var(--color3);
+    letter-spacing: 5px;
+}
+
+    /* EMPLOYEES */
+h6 {
+    text-align: center;
+    font-family: fantasy, papyrus;
+    padding: 10px, 10px, 0px, 10px;
+    width: auto;
+}
+
+
+    /* TABLE */
+
+ table {
+    margin: auto;
+
+}
+
+caption {
+    vertical-align: top;
+    padding: 10px;
+    color: var(--color3);
+    border: 2px dotted var(--color4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 7px;
+    text-shadow: 1px 1px var(--color2);
+}
+
+
+td {
+    vertical-align: top;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color:var(--color3);
+}
+
+th {
+    color:var(--color3);
+    font-style: italic;
+    border: 1px solid var(--color3);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+}
+
+    /* DRINK SIZE  */
+.size {
+    color: var(--color4);
+
+ }
+    /* END OF TABLE */
+
+
+
+    /* BACK TO TOP LINK */
+
+.toplink {
+    color: var(--color3);
+    font-size: 35px;
+}
+
+
+    /* BOTTOM OF WEBPAGE */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: var(--color6);
+    background-image: linear-gradient(var(--color5), var(--color3));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100%;
+ }
+
+hr {
+    width: 75%;
+    color:#973F45;
+ }
+
+.coffeeart {
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+}
+.coffeeartleft {
+    float: left;
+    max-width: 400px;
+    max-height: 400px;
+
+}
+
+.coffeeartright {
+    float: right;
+    max-width: 400px;
+    max-height: 400px;
+ 
+}
